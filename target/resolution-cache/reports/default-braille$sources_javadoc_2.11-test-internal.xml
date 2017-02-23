@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="braille$sources_javadoc_2.11"
+		revision="0.0.1-SNAPSHOT"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170223220900"/>
+	<dependencies>
+		<module organisation="com.sksamuel.scrimage" name="scrimage-io-extra_2.11">
+			<revision name="2.1.7" status="release" pubdate="20160812083750" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sksamuel/scrimage" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5451" time="0" location="C:\Users\Windows\.ivy2\cache\com.sksamuel.scrimage\scrimage-io-extra_2.11\ivy-2.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sksamuel/scrimage/scrimage-io-extra_2.11/2.1.7/scrimage-io-extra_2.11-2.1.7.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.7" rev-constraint-default="2.1.7" rev-constraint-dynamic="2.1.7" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scrimage-io-extra_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="370028" time="2361" location="C:\Users\Windows\.ivy2\cache\com.sksamuel.scrimage\scrimage-io-extra_2.11\docs\scrimage-io-extra_2.11-2.1.7-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sksamuel/scrimage/scrimage-io-extra_2.11/2.1.7/scrimage-io-extra_2.11-2.1.7-javadoc.jar"/>
+					</artifact>
+					<artifact name="scrimage-io-extra_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2744" time="707" location="C:\Users\Windows\.ivy2\cache\com.sksamuel.scrimage\scrimage-io-extra_2.11\srcs\scrimage-io-extra_2.11-2.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sksamuel/scrimage/scrimage-io-extra_2.11/2.1.7/scrimage-io-extra_2.11-2.1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-thumbsdb">
+			<revision name="3.2.1" status="release" pubdate="20151211132048" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<metadata-artifact status="no" details="" size="6154" time="0" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-thumbsdb\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-thumbsdb/3.2.1/imageio-thumbsdb-3.2.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="imageio-thumbsdb" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="58397" time="957" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-thumbsdb\docs\imageio-thumbsdb-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-thumbsdb/3.2.1/imageio-thumbsdb-3.2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="imageio-thumbsdb" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="12989" time="739" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-thumbsdb\srcs\imageio-thumbsdb-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-thumbsdb/3.2.1/imageio-thumbsdb-3.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-pcx">
+			<revision name="3.2.1" status="release" pubdate="20151211131759" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<metadata-artifact status="no" details="" size="6136" time="0" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-pcx\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pcx/3.2.1/imageio-pcx-3.2.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="imageio-pcx" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="29608" time="812" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-pcx\srcs\imageio-pcx-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pcx/3.2.1/imageio-pcx-3.2.1-sources.jar"/>
+					</artifact>
+					<artifact name="imageio-pcx" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="65203" time="958" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-pcx\docs\imageio-pcx-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pcx/3.2.1/imageio-pcx-3.2.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-bmp">
+			<revision name="3.2.1" status="release" pubdate="20151211131537" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<metadata-artifact status="no" details="" size="6160" time="0" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-bmp\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-bmp/3.2.1/imageio-bmp-3.2.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="imageio-bmp" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="70089" time="1044" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-bmp\docs\imageio-bmp-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-bmp/3.2.1/imageio-bmp-3.2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="imageio-bmp" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="55298" time="971" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-bmp\srcs\imageio-bmp-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-bmp/3.2.1/imageio-bmp-3.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-icns">
+			<revision name="3.2.1" status="release" pubdate="20151211131608" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<metadata-artifact status="no" details="" size="6140" time="0" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-icns\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-icns/3.2.1/imageio-icns-3.2.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="imageio-icns" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="25099" time="806" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-icns\srcs\imageio-icns-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-icns/3.2.1/imageio-icns-3.2.1-sources.jar"/>
+					</artifact>
+					<artifact name="imageio-icns" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="45796" time="886" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-icns\docs\imageio-icns-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-icns/3.2.1/imageio-icns-3.2.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-pdf">
+			<revision name="3.2.1" status="release" pubdate="20151211131814" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<metadata-artifact status="no" details="" size="6144" time="0" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-pdf\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pdf/3.2.1/imageio-pdf-3.2.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="imageio-pdf" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
+					<artifact name="imageio-pdf" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="340" time="697" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-pdf\docs\imageio-pdf-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pdf/3.2.1/imageio-pdf-3.2.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-pnm">
+			<revision name="3.2.1" status="release" pubdate="20151211131854" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<metadata-artifact status="no" details="" size="6136" time="0" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-pnm\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pnm/3.2.1/imageio-pnm-3.2.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="imageio-pnm" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="61242" time="1065" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-pnm\docs\imageio-pnm-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pnm/3.2.1/imageio-pnm-3.2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="imageio-pnm" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="39375" time="914" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-pnm\srcs\imageio-pnm-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pnm/3.2.1/imageio-pnm-3.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-pict">
+			<revision name="3.2.1" status="release" pubdate="20151211131826" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<metadata-artifact status="no" details="" size="6147" time="0" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-pict\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pict/3.2.1/imageio-pict-3.2.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="imageio-pict" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="70478" time="1078" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-pict\docs\imageio-pict-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pict/3.2.1/imageio-pict-3.2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="imageio-pict" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="79349" time="1118" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-pict\srcs\imageio-pict-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pict/3.2.1/imageio-pict-3.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-tga">
+			<revision name="3.2.1" status="release" pubdate="20151211132032" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<metadata-artifact status="no" details="" size="6140" time="0" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tga\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-tga/3.2.1/imageio-tga-3.2.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="imageio-tga" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="45867" time="938" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tga\docs\imageio-tga-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-tga/3.2.1/imageio-tga-3.2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="imageio-tga" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="21237" time="877" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tga\srcs\imageio-tga-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-tga/3.2.1/imageio-tga-3.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.1" status="release" pubdate="20140520100221" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="10">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\Windows\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/"/>
+				<artifacts>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="20377790" time="69481" location="C:\Users\Windows\.ivy2\cache\org.scala-lang\scala-library\docs\scala-library-2.11.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="896552" time="4889" location="C:\Users\Windows\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.11.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-iff">
+			<revision name="3.2.1" status="release" pubdate="20151211131629" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<metadata-artifact status="no" details="" size="6193" time="0" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-iff\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-iff/3.2.1/imageio-iff-3.2.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="imageio-iff" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="47824" time="908" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-iff\srcs\imageio-iff-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-iff/3.2.1/imageio-iff-3.2.1-sources.jar"/>
+					</artifact>
+					<artifact name="imageio-iff" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="58554" time="935" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-iff\docs\imageio-iff-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-iff/3.2.1/imageio-iff-3.2.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-sgi">
+			<revision name="3.2.1" status="release" pubdate="20151211132014" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<metadata-artifact status="no" details="" size="6142" time="0" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-sgi\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-sgi/3.2.1/imageio-sgi-3.2.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="imageio-sgi" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="15821" time="753" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-sgi\srcs\imageio-sgi-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-sgi/3.2.1/imageio-sgi-3.2.1-sources.jar"/>
+					</artifact>
+					<artifact name="imageio-sgi" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="45444" time="929" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-sgi\docs\imageio-sgi-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-sgi/3.2.1/imageio-sgi-3.2.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sksamuel.scrimage" name="scrimage-filters_2.11">
+			<revision name="2.1.7" status="release" pubdate="20160812084333" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sksamuel/scrimage" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3549" time="0" location="C:\Users\Windows\.ivy2\cache\com.sksamuel.scrimage\scrimage-filters_2.11\ivy-2.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sksamuel/scrimage/scrimage-filters_2.11/2.1.7/scrimage-filters_2.11-2.1.7.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.7" rev-constraint-default="2.1.7" rev-constraint-dynamic="2.1.7" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scrimage-filters_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1508858" time="7878" location="C:\Users\Windows\.ivy2\cache\com.sksamuel.scrimage\scrimage-filters_2.11\docs\scrimage-filters_2.11-2.1.7-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sksamuel/scrimage/scrimage-filters_2.11/2.1.7/scrimage-filters_2.11-2.1.7-javadoc.jar"/>
+					</artifact>
+					<artifact name="scrimage-filters_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="6671519" time="23989" location="C:\Users\Windows\.ivy2\cache\com.sksamuel.scrimage\scrimage-filters_2.11\srcs\scrimage-filters_2.11-2.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sksamuel/scrimage/scrimage-filters_2.11/2.1.7/scrimage-filters_2.11-2.1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sksamuel.scrimage" name="scrimage-core_2.11">
+			<revision name="2.1.7" status="release" pubdate="20160812084334" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sksamuel/scrimage" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="14">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4573" time="0" location="C:\Users\Windows\.ivy2\cache\com.sksamuel.scrimage\scrimage-core_2.11\ivy-2.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sksamuel/scrimage/scrimage-core_2.11/2.1.7/scrimage-core_2.11-2.1.7.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.7" rev-constraint-default="2.1.7" rev-constraint-dynamic="2.1.7" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scrimage-core_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="74251" time="1105" location="C:\Users\Windows\.ivy2\cache\com.sksamuel.scrimage\scrimage-core_2.11\srcs\scrimage-core_2.11-2.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sksamuel/scrimage/scrimage-core_2.11/2.1.7/scrimage-core_2.11-2.1.7-sources.jar"/>
+					</artifact>
+					<artifact name="scrimage-core_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="911492" time="5454" location="C:\Users\Windows\.ivy2\cache\com.sksamuel.scrimage\scrimage-core_2.11\docs\scrimage-core_2.11-2.1.7-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sksamuel/scrimage/scrimage-core_2.11/2.1.7/scrimage-core_2.11-2.1.7-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ar.com.hjg" name="pngj">
+			<revision name="2.1.0" status="release" pubdate="20140506142225" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://pngj.googlecode.com/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3417" time="0" location="C:\Users\Windows\.ivy2\cache\ar.com.hjg\pngj\ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ar/com/hjg/pngj/2.1.0/pngj-2.1.0.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="pngj" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="546294" time="3239" location="C:\Users\Windows\.ivy2\cache\ar.com.hjg\pngj\docs\pngj-2.1.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ar/com/hjg/pngj/2.1.0/pngj-2.1.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="pngj" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="121611" time="1285" location="C:\Users\Windows\.ivy2\cache\ar.com.hjg\pngj\srcs\pngj-2.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ar/com/hjg/pngj/2.1.0/pngj-2.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.4" status="release" pubdate="20120613002206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8783" time="0" location="C:\Users\Windows\.ivy2\cache\commons-io\commons-io\ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-io" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="724124" time="4345" location="C:\Users\Windows\.ivy2\cache\commons-io\commons-io\docs\commons-io-2.4-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-io" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="246635" time="1847" location="C:\Users\Windows\.ivy2\cache\commons-io\commons-io\srcs\commons-io-2.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-jpeg">
+			<revision name="3.2.1" status="release" pubdate="20151211131649" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<metadata-artifact status="no" details="" size="6321" time="0" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-jpeg\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-jpeg/3.2.1/imageio-jpeg-3.2.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="imageio-jpeg" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="56518" time="976" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-jpeg\srcs\imageio-jpeg-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-jpeg/3.2.1/imageio-jpeg-3.2.1-sources.jar"/>
+					</artifact>
+					<artifact name="imageio-jpeg" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="67971" time="1081" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-jpeg\docs\imageio-jpeg-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-jpeg/3.2.1/imageio-jpeg-3.2.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-psd">
+			<revision name="3.2.1" status="release" pubdate="20151211131916" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<metadata-artifact status="no" details="" size="6299" time="0" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-psd\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-psd/3.2.1/imageio-psd-3.2.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="imageio-psd" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="63004" time="982" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-psd\docs\imageio-psd-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-psd/3.2.1/imageio-psd-3.2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="imageio-psd" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="84070" time="997" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-psd\srcs\imageio-psd-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-psd/3.2.1/imageio-psd-3.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.7" status="release" pubdate="20140404131248" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4525" time="0" location="C:\Users\Windows\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="195678" time="1341" location="C:\Users\Windows\.ivy2\cache\org.slf4j\slf4j-api\docs\slf4j-api-1.7.7-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-javadoc.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="49406" time="897" location="C:\Users\Windows\.ivy2\cache\org.slf4j\slf4j-api\srcs\slf4j-api-1.7.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-tiff">
+			<revision name="3.2.1" status="release" pubdate="20151211132105" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<metadata-artifact status="no" details="" size="6314" time="0" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tiff\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-tiff/3.2.1/imageio-tiff-3.2.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="imageio-tiff" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="87107" time="1003" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tiff\srcs\imageio-tiff-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-tiff/3.2.1/imageio-tiff-3.2.1-sources.jar"/>
+					</artifact>
+					<artifact name="imageio-tiff" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="87190" time="1000" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tiff\docs\imageio-tiff-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-tiff/3.2.1/imageio-tiff-3.2.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-metadata">
+			<revision name="3.2.1" status="release" pubdate="20151211131438" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<metadata-artifact status="no" details="" size="6122" time="0" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-metadata\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.2.1/imageio-metadata-3.2.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="imageio-metadata" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="213984" time="2043" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-metadata\docs\imageio-metadata-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.2.1/imageio-metadata-3.2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="imageio-metadata" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="83581" time="1195" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-metadata\srcs\imageio-metadata-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.2.1/imageio-metadata-3.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.imageio" name="imageio-core">
+			<revision name="3.2.1" status="release" pubdate="20151211131421" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<metadata-artifact status="no" details="" size="6064" time="0" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-core\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-core/3.2.1/imageio-core-3.2.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="imageio-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="60787" time="977" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-core\srcs\imageio-core-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-core/3.2.1/imageio-core-3.2.1-sources.jar"/>
+					</artifact>
+					<artifact name="imageio-core" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="185596" time="1643" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-core\docs\imageio-core-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-core/3.2.1/imageio-core-3.2.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.common" name="common-image">
+			<revision name="3.2.1" status="release" pubdate="20151211131343" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<metadata-artifact status="no" details="" size="4561" time="0" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.common\common-image\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-image/3.2.1/common-image-3.2.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="common-image" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="100517" time="1197" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.common\common-image\srcs\common-image-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-image/3.2.1/common-image-3.2.1-sources.jar"/>
+					</artifact>
+					<artifact name="common-image" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="162489" time="1415" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.common\common-image\docs\common-image-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-image/3.2.1/common-image-3.2.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.common" name="common-io">
+			<revision name="3.2.1" status="release" pubdate="20151211131329" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<metadata-artifact status="no" details="" size="4439" time="0" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.common\common-io\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-io/3.2.1/common-io-3.2.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="common-io" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="261747" time="1578" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.common\common-io\docs\common-io-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-io/3.2.1/common-io-3.2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="common-io" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="121889" time="1073" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.common\common-io\srcs\common-io-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-io/3.2.1/common-io-3.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twelvemonkeys.common" name="common-lang">
+			<revision name="3.2.1" status="release" pubdate="20151211131310" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<metadata-artifact status="no" details="" size="4139" time="0" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.common\common-lang\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-lang/3.2.1/common-lang-3.2.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="common-lang" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="128867" time="1126" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.common\common-lang\srcs\common-lang-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-lang/3.2.1/common-lang-3.2.1-sources.jar"/>
+					</artifact>
+					<artifact name="common-lang" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="326768" time="1767" location="C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.common\common-lang\docs\common-lang-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-lang/3.2.1/common-lang-3.2.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.drewnoakes" name="metadata-extractor">
+			<revision name="2.8.1" status="release" pubdate="20150421002652" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://drewnoakes.com/code/exif/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3607" time="0" location="C:\Users\Windows\.ivy2\cache\com.drewnoakes\metadata-extractor\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.8.1/metadata-extractor-2.8.1.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="metadata-extractor" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="342152" time="2622" location="C:\Users\Windows\.ivy2\cache\com.drewnoakes\metadata-extractor\srcs\metadata-extractor-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.8.1/metadata-extractor-2.8.1-sources.jar"/>
+					</artifact>
+					<artifact name="metadata-extractor" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1323248" time="5513" location="C:\Users\Windows\.ivy2\cache\com.drewnoakes\metadata-extractor\docs\metadata-extractor-2.8.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.8.1/metadata-extractor-2.8.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.adobe.xmp" name="xmpcore">
+			<revision name="5.1.2" status="release" pubdate="20120703121504" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.adobe.com/devnet/xmp.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="The BSD License" url="http://www.adobe.com/devnet/xmp/library/eula-xmp-library-java.html"/>
+				<metadata-artifact status="no" details="" size="2596" time="0" location="C:\Users\Windows\.ivy2\cache\com.adobe.xmp\xmpcore\ivy-5.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/adobe/xmp/xmpcore/5.1.2/xmpcore-5.1.2.pom"/>
+				<caller organisation="default" name="braille$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="5.1.2" rev-constraint-default="5.1.2" rev-constraint-dynamic="5.1.2" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="xmpcore" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="136918" time="1427" location="C:\Users\Windows\.ivy2\cache\com.adobe.xmp\xmpcore\srcs\xmpcore-5.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/adobe/xmp/xmpcore/5.1.2/xmpcore-5.1.2-sources.jar"/>
+					</artifact>
+					<artifact name="xmpcore" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="347550" time="2994" location="C:\Users\Windows\.ivy2\cache\com.adobe.xmp\xmpcore\docs\xmpcore-5.1.2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/adobe/xmp/xmpcore/5.1.2/xmpcore-5.1.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

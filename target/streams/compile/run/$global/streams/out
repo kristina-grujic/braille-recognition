@@ -1,0 +1,36 @@
+[0m[[0minfo[0m] [0mRunning Application [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-1c to terminate.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\kristina\braille\target\scala-2.11\classes[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.sksamuel.scrimage\scrimage-core_2.11\jars\scrimage-core_2.11-2.1.7.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-core\jars\imageio-core-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.common\common-lang\jars\common-lang-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.common\common-io\jars\common-io-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.common\common-image\jars\common-image-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-jpeg\jars\imageio-jpeg-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-metadata\jars\imageio-metadata-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.drewnoakes\metadata-extractor\jars\metadata-extractor-2.8.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.adobe.xmp\xmpcore\jars\xmpcore-5.1.2.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\commons-io\commons-io\jars\commons-io-2.4.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\ar.com.hjg\pngj\jars\pngj-2.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.sksamuel.scrimage\scrimage-io-extra_2.11\jars\scrimage-io-extra_2.11-2.1.7.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-bmp\jars\imageio-bmp-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-icns\jars\imageio-icns-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-iff\jars\imageio-iff-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-pcx\jars\imageio-pcx-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-pict\jars\imageio-pict-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-pdf\jars\imageio-pdf-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-pnm\jars\imageio-pnm-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-psd\jars\imageio-psd-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-sgi\jars\imageio-sgi-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tiff\jars\imageio-tiff-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tga\jars\imageio-tga-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.twelvemonkeys.imageio\imageio-thumbsdb\jars\imageio-thumbsdb-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Windows\.ivy2\cache\com.sksamuel.scrimage\scrimage-filters_2.11\jars\scrimage-filters_2.11-2.1.7.jar[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-1c exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m
