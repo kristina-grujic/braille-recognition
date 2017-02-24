@@ -7,18 +7,18 @@ import com.sksamuel.scrimage.filter.ThresholdFilter;
 
 class ImagePreprocessor(val inFile:String) {
   var image = Image.fromFile(new File(inFile));
-  var array = Array.ofDim[Int](image.width, image.height);
+  var array = Array.ofDim[Int](32, 42);
   var counterh = 0;
   var counterw = 0;
   
   def preprocessor() : Image = {
-    image = image.resizeTo(image.width, image.height);
+    image = image.scaleTo(32, 42);
     image = image.map(grayscaleThreshold);
     
-    array.foreach( x => println(x.mkString) )
-    
+
     return image
   }
+  
   
   private def grayscaleThreshold(x: Int, y: Int, pixel: Pixel) : Pixel = {
     var result = pixel;
